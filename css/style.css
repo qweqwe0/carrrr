@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body1{
+    width: 100%;
+    background-image: url("https://abrakadabra.fun/uploads/posts/2022-01/1643526969_2-abrakadabra-fun-p-fon-dorogi-sboku-3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    display: flex;
+   
+}
+.car{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 110px;
+    border-radius: 10px 100px 10px 0px;
+    justify-content: space-between;
+    left: -200px;
+    
+   animation: car 3s forwards;
+}
+.window{
+    position: absolute;
+    margin-left: 105px;
+    width: 70px;
+    height: 40px;
+    border-radius:0px 100px 10px 0px ;
+    background-color: aqua;
+    margin-top: 5px;
+
+ 
+}
+.wheel{
+    height: 30px;
+    width: 30px;
+    margin-top: 75px;
+    background-color: rgb(243, 9, 9);
+    border-radius: 100px;
+
+  
+}
+
+@keyframes car {
+
+    100%{
+        left: calc(100vw - 250px);
+    }
+}
